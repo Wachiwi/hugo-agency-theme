@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+
+    {{ "<!-- 404 -->" | safeHTML }}
+    <header>
+      Hello World
+      </div>
+    </header>
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>

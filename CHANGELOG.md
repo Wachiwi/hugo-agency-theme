@@ -10,7 +10,7 @@
 [Show me the diff](https://github.com/digitalcraftsman/hugo-agency-theme/compare/615f5242d0c2c20b2062545d48cf15125d9ca91d...f9c636485fd6c846d83e531eb4e5c0247eabf4a7)
 
 ### 22nd September 2016
-- Add Tracking via piwik as alternative to Google Analytics. 
+- Add Tracking via piwik as alternative to Google Analytics.
 - Ability to disable fonts for performance and privacy.
 
 [Show me the diff](https://github.com/digitalcraftsman/hugo-agency-theme/compare/bf89cf62acf794db3a387b39f8792df807ba1698...615f5242d0c2c20b2062545d48cf15125d9ca91d)

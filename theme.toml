@@ -1,14 +1,14 @@
-name = "Agency"
+name = "Hugo CMS"
 license = "Apache License 2.0"
-licenselink = "//github.com/digitalcraftsman/hugo-agency-theme/blob/master/LICENSE"
+licenselink = "//github.com/Wachiwi/hugo-agency-theme/blob/master/LICENSE"
 description = "A one page portfolio for companies and freelancers."
-homepage = "//github.com/digitalcraftsman/hugo-agency-theme"
-tags = ["portfolio", "company", "contact form", "timeline", "google analytics", "piwik"]
-min_version = 0.15
+homepage = "//github.com/Wachiwi/hugo-agency-theme"
+tags = ["cms", "company", "contact form", "simple", "google analytics", "piwik"]
+min_version = 0.37.1
 
 [author]
-  name = "digitalcraftsman"
-  homepage = "//github.com/digitalcraftsman"
+  name = "wachiwi"
+  homepage = "//github.com/wachiwi"
 
 # If porting an existing theme
 [original]

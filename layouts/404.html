@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
   {{ partial "head.html" . }}
 
   <body id="page-top" class="index">
     {{ partial "nav.html" . }}
 
-    {{ "<!-- 404 -->" | safeHTML }}
+    {{ "<!-- VOLLIDIOT -->" | safeHTML }}
     <header>
       <div class="container">
         <div class="404">
@@ -14,7 +13,7 @@
             <div class="intro-heading">Page not found</div>
 
             {{ with .Site.Params.error404 }}
-            <div class="intro-lead-in">{{ .heading | markdownify }}</div>
+            <div class="intro-lead-in">{{ T .heading | markdownify }}</div>
 
             <div class="intro-lead-in">{{ .text | markdownify }}</div>
             {{ else }}
@@ -27,9 +26,7 @@
       </div>
     </header>
 
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer.html" . }}
-    {{ end }}
+    {{ partial "footer.html" . }}
 
     {{ partial "js.html" . }}
   </body>

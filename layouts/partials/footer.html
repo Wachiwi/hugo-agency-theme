@@ -1,4 +1,3 @@
-{{ "<!-- Footer section -->" | safeHTML }}
 <footer>
   <div class="container">
     <div class="row">
@@ -8,7 +7,7 @@
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
 
-          {{ range .Site.Params.footer.social }}
+          {{ range .Site.Data.footer.social }}
             <li><a href="{{ .link }}" title="{{ .title }}"><i class="fa {{ .icon }}"></i></a></li>
           {{ end }}
 
@@ -17,7 +16,7 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
 
-          {{ range .Site.Params.footer.quicklinks }}
+          {{ range .Site.Data.footer.links }}
             <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
           {{ end }}
 
